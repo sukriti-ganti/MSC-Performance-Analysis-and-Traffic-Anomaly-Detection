@@ -1,0 +1,21 @@
+scenario_id,active_pcs,traffic_type,traffic_internsity,avg_delay,packet_loss,throughput,label
+S1,1,HTTP,Low,Low,0.0,Low,0
+S2,10,ICMP,HIGH,1.986s,0.2,Low,Abnormal
+S3,1,Ping,Low,0.05,0.0,High,Normal
+S4,3,Ping,Low,0.12,0.0,High,Normal
+S5,3,HTTP,Low,0.2,0.0,High,Normal
+S6,5,Ping,Medium,0.4,0.0,High,Normal
+S7,5,Mixed (Ping+HTTP),Medium,0.55,0.0,High,Normal
+S8,8,Ping,Medium,0.95,0.08,Medium,Abnormal
+S9,12,HTTP,High,2.4,0.3,Low,Abnormal
+S10,15,Ping,High,3.1,0.35,Low,Abnormal
+S11,15,Mixed (Ping+HTTP),Very High,3.8,0.45,Very Low,Abnormal
+S12,10,HTTP,High,2.1,0.18,Medium,Abnormal
+S13,10,Ping,High,2.45,0.25,Low,Abnormal
+S14,10,Mixed (Ping+HTTP),High,2.85,0.28,Low,Abnormal
+S15,10,HTTP (Continuous),High,3.2,0.32,Very Low,Abnormal
+S16,10,Ping Storm,High,3.6,0.38,Very Low,Abnormal
+S17,10,Ping (intermittent),Medium,1.2,0.1,Medium,Abnormal
+S18,10,HTTP (bursty),Medium,1.35,0.12,Medium,Abnormal
+S19,10,Mixed (light Ping + HTTP),Medium,1.55,0.15,Medium,Abnormal
+S20,10,ICMP + HTTP (alternating),Medium,1.75,0.17,Medium,Abnormal
